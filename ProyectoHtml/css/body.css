@@ -1,0 +1,102 @@
+.bnt-light{
+    background: rgb(154, 92, 92);
+    color: white;
+}
+
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(../img/luxurious-hotel-room-with-oversized-bed-and-stylish-asian-influenced-decor-amidst-scenic-outdoor-views-photo.jpeg)no-repeat
+    center;
+    min-height: 100%;
+
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#historia{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.bg-dark{
+    margin: 10px;
+    background: #001F3F;
+}
+.text-primary{
+    top: 0;
+    color: white;
+}
+
+#home-info .info-content {
+    padding: 30px;
+}
+
+
+.box{
+    float: left;
+    padding-top: 20px;
+    padding: 50px;
+    width: 33.2%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+.box p {
+    padding: 30px;
+}
+
+
+.bg-primary{
+    background-color: #001F3F;
+    color: rgb(255, 255, 255);
+}
+
+.cuerpo{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    
+}
+
+#h2r{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+img{
+    float: left;
+    width: 33.3%;
+    
+}
+
+#historia{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+#contenedorw{
+    background-color: black;
+    width: 100%;
+}
+

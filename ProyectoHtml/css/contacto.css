@@ -1,0 +1,75 @@
+.contacto {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+.contacto h2 {
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contacto form label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.contacto form input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.contacto form input:focus,
+.contacto form textarea:focus {
+    outline: none;
+    border-color: #f1c40f;
+}
+
+.contacto form button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto form button:hover {
+    background-color: #555;
+}
+
+.contacto form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000;
+    box-sizing: border-box;
+}

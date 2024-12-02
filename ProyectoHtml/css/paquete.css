@@ -1,0 +1,62 @@
+/* Sección de Paquetes */
+.paquetes {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.paquetes h2 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.paquete-item {
+    display: inline-block;
+    width: 30%;
+    background-color: #ffffff;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.paquete-item h3 {
+    color: #2b2b2b;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.paquete-item p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.paquete-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Botón de información */
+.btn-info {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #555;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .paquete-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

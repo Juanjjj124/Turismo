@@ -1,0 +1,88 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;  
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background:url(../img/DUF_8644-v-ok-1170x780.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Estilos para el formulario de login */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container input:focus {
+    border-color: #f1c40f;
+    outline: none;
+}
+
+.login-container button {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #555;
+}
+
+.login-container p {
+    margin-top: 10px;
+}
+
+.login-container a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
